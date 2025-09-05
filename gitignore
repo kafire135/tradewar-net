@@ -1,0 +1,61 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+*.egg-info/
+.eggs/
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+*.DS_Store
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+.jupyter/
+**/.ipynb_checkpoints/
+
+# Test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+.tox/
+dist/
+build/
+
+# --- Project data layout ---
+# Keep raw inputs under version control, but ignore generated outputs.
+data/processed/**
+figures/**
+reports/**
+!reports/README.md
+!figures/README.md
+
+# UN Comtrade API chunk cache (generated)
+data/raw/chunks/**
+
+# Allow keeping a placeholder in ignored folders
+!data/processed/.gitkeep
+!figures/.gitkeep
+!reports/.gitkeep
+
+# OS / misc
+Thumbs.db
+ehthumbs.db
+Desktop.ini
