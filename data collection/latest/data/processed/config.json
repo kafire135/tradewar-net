@@ -1,0 +1,41 @@
+{
+  "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "focus_countries": [
+    "USA",
+    "CHN",
+    "VNM",
+    "MEX",
+    "DEU",
+    "JPN",
+    "KOR",
+    "CAN",
+    "TWN",
+    "THA",
+    "MYS"
+  ],
+  "hs_sections": [
+    "84",
+    "85"
+  ],
+  "use_api_calls": true,
+  "preview_max_records": 500,
+  "sleep_between_calls": 1.2,
+  "respect_quota_sleep": true,
+  "quota_sleep_ceiling_min": 30,
+  "wb_indicators": [
+    "NE.TRD.GNFS.ZS",
+    "NY.GDP.MKTP.CD",
+    "NY.GDP.MKTP.KD",
+    "FP.CPI.TOTL"
+  ],
+  "PARTNER_MODE": "focus"
+}
